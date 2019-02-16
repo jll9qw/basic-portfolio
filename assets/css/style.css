@@ -1,0 +1,94 @@
+body { 
+    background-image: url("assets/images/textured_paper_@2X.png");
+    background-repeat: repeat-x;
+    color: #777777;
+    font-family: 'Kanit', sans-serif;
+  }
+
+  .wrapper{
+      width: 960px
+  }
+
+  .header{
+      background-color: #4aaaa5;
+      max-width: auto;
+      float: left;
+      color: white;
+      position: relative;
+      left: 50px;
+  }
+.topnav{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  border-color: #cccccc;
+  border-bottom: solid;
+
+}
+ul{
+    list-style-type: none;
+}
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color:#777777;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+  .container{
+      clear: both;
+      background-color: #ffffff;
+      padding: 10px;
+      margin: 20px;
+      position: relative;
+      top: 20px;
+      bottom: 20px;
+      border-color: #dddddd;
+      border-style: solid;
+      border-width: 10px;
+  }
+/* set positioning top 40px? space out from header div */
+  #line{
+     max-width: auto;
+      height: 1px;
+      padding: 1px;
+      background-color: greenyellow;
+  }
+
+  #company-logo{
+      float: left;
+      padding: 10px;
+      margin: 10px;
+    
+  }
+  p {
+      position: relative;
+      bottom: 40px;
+  }
+
+  .footer{
+      background-color: #666666;
+      position: relative;
+      bottom: -300px;
+    
+  }
+
+  button{
+      background-color: #4aaaa5;
+      font-size: 24px;
+      color: #ffffff;
+  }
+
+
+
+
+
+
+  /* negative bottom margin equal to the height of the element is how you make a sticky footer */
